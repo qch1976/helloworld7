@@ -11,7 +11,7 @@
         android:id="@+id/tv_hello"
         android:layout_width="221dp"
         android:layout_height="296dp"
-        android:text="Hello World YDL!"
+        android:text="Hello World YDL in github!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.455"
         app:layout_constraintLeft_toLeftOf="parent"
