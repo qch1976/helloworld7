@@ -19,9 +19,16 @@ public class ColorActivity extends AppCompatActivity {
         TextView tv_code_six = findViewById(R.id.tv_code_six);
         // 给文本视图tv_code_six设置背景为透明的绿色，透明就是看不到
         tv_code_six.setBackgroundColor(0x00ff00);
+
         // 从布局文件中获取名叫tv_code_eight的文本视图
         TextView tv_code_eight = findViewById(R.id.tv_code_eight);
         // 给文本视图tv_code_eight设置背景为不透明的绿色，即正常的绿色
         tv_code_eight.setBackgroundColor(0xff00ff00);
+
+        // 从布局文件中获取名叫tv_code_eight的文本视图
+        TextView tv_res_code_eight = findViewById(R.id.tv_res_code_eight);
+        // 给文本视图tv_res_code_eight设置背景为不透明的绿色，即正常的绿色
+        tv_res_code_eight.setBackgroundColor(0xffff0000);
+
     }
 }

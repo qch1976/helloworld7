@@ -37,6 +37,11 @@ public class ScreenActivity extends AppCompatActivity {
                 width, height, density);
         // 设置文本视图tv_screen的文本内容
         tv_screen.setText(info);
+        tv_screen.setTextColor(0xff7f00af);
+        tv_screen.setBackgroundColor( this.getResources().getColor(R.color.colorAccent));
+        //.colorPrimaryDark));
+        //0xff00007f);
+
     }
 
 }
