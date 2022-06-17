@@ -5,7 +5,8 @@
     android:layout_height="300dp"
     android:background="#ffff99"
     android:orientation="horizontal"
-    android:paddingTop="50dp">
+    android:paddingTop="50dp"
+    android:paddingRight="1dp">
 
     <!-- 第一个子布局背景为红色，它与上级布局靠下对齐，它的下级视图则靠左对齐 -->
     <LinearLayout
@@ -14,16 +15,39 @@
         android:layout_weight="1"
         android:layout_gravity="bottom"
         android:gravity="left"
-        android:background="#ff0000"
-        android:layout_margin="10dp"
+        android:background="#2f4f39"
+        android:layout_margin="1dp"
         android:padding="10dp"
         android:orientation="vertical">
 
         <!-- 内层视图的宽度和高度都是100dp，且背景色为青色 -->
         <View
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="#00ffff" />
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="19dp"
+            android:background="#002fff" />
+
+        <!-- YDL 2nd view -->
+        <View
+            android:layout_width="30dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="#952f66" />
+
+        <!-- YDL 2nd view -->
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:background="#f52f66" />
+
+        <!-- YDL 2nd view -->
+        <View
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="#95ff66" />
+
     </LinearLayout>
 
     <!-- 第二个子布局背景为红色，它与上级布局靠上对齐，它的下级视图则靠右对齐 -->

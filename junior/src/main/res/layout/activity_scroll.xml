@@ -6,7 +6,7 @@
     <!-- HorizontalScrollView是水平方向的滚动视图，当前高度为200dp -->
     <HorizontalScrollView
         android:layout_width="wrap_content"
-        android:layout_height="200dp">
+        android:layout_height="100dp">
 
         <!-- 水平方向的线性布局，两个子视图的颜色分别为青色和黄色 -->
         <LinearLayout
@@ -15,14 +15,25 @@
             android:orientation="horizontal">
 
             <View
-                android:layout_width="400dp"
+                android:layout_width="200dp"
                 android:layout_height="match_parent"
-                android:background="#aaffff" />
+                android:background="#2a7f33" />
 
             <View
-                android:layout_width="400dp"
+                android:layout_width="200dp"
                 android:layout_height="match_parent"
                 android:background="#ffff00" />
+
+            <View
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="#afffff" />
+
+            <View
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="#af00ff" />
+
         </LinearLayout>
     </HorizontalScrollView>
 
@@ -39,13 +50,30 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="400dp"
-                android:background="#00ff00" />
+                android:layout_height="300dp"
+                android:background="#a0ffa0" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#ffff00" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="#a0afa0" />
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
-                android:background="#ffffaa" />
+                android:background="#ff0000" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#00ff00" />
+
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
