@@ -61,6 +61,7 @@ public class CalculatorActivity extends AppCompatActivity implements View.OnClic
         if (resid == R.id.btn_clear) { // 点击了清除按钮
             clear("");
         } else if (resid == R.id.btn_cancel) { // 点击了取消按钮
+
             if (operator.equals("")) { // 无操作符，则表示逐位取消前一个操作数
                 if (firstNum.length() == 1) {
                     firstNum = "0";
